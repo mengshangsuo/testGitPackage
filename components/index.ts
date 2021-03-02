@@ -1,5 +1,5 @@
 class setName {
-  constructor(parameters) {
+  constructor() {
     console.log('我是哈哈哈');
   }
 }

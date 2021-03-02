@@ -9,7 +9,7 @@
     "type-check:watch": "npm run type-check -- --watch",
     "build": "npm run build:types && npm run build:js",
     "build:types": "tsc --emitDeclarationOnly",
-    "build:js": "babel components --out-file index.ts --extensions \".ts,.tsx\" --source-maps inline"
+    "build:js": "babel components --out-file index.js --source-maps inline"
   },
   "keywords": [
     "测试git仓库包的使用"
@@ -20,8 +20,8 @@
     "@babel/cli": "^7.13.0",
     "@babel/core": "^7.13.8",
     "@babel/preset-env": "^7.13.9",
-    "@babel/plugin-proposal-class-properties": "^7.8.3",
-    "@babel/preset-typescript": "^7.8.3",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/preset-typescript": "^7.13.0",
     "typescript": "^3.7.5"
   },
   "dependencies": {
