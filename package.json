@@ -1,0 +1,22 @@
+{
+  "name": "react-iframe",
+  "version": "1.0.0",
+  "description": "test-git-package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "测试git仓库包的使用"
+  ],
+  "author": "Suoer",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.8",
+    "@babel/preset-env": "^7.13.9"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1"
+  }
+}
